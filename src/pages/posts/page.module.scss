@@ -1,0 +1,80 @@
+.image {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  margin: auto;
+  background: linear-gradient(310deg, #ff8966 0%, #e5446d 80%);
+  opacity: .9;
+  font-size: 32px;
+  margin: 15px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.date {
+  color: #616161;
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 15px;
+  margin-top: 10px
+}
+
+.content {
+  color: #909090;
+  text-align: left;
+  margin: auto;
+  max-width: 900px;
+  border-left: solid 2px #3a3a3a;
+  padding: 15px;
+}
+
+.nextLink {
+  background-color: rgba(200,200,244,.05);
+  color: #5d5e9d;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 10px 100px 10px 30px;
+  margin-right: 0;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+  position: relative;
+  text-decoration: none;
+  transition: 300ms;
+
+  .icon {
+    font-size: 24px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+
+    .icon {
+      animation: 400ms woggleRight infinite alternate ease-out ;
+    }
+  }
+
+
+}
+
+@keyframes woggleRight {
+  from {
+    right: 25px;
+  }
+
+  to {
+    right: 20px;
+  }
+}

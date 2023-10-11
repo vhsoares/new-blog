@@ -1,0 +1,22 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  position: relative;
+
+  .label {
+    padding-bottom: 5px;
+    font-weight: 200;
+    color: #eacaca;
+  }
+
+  .textarea {
+    background-color: transparent;
+    box-shadow: none;
+    border: solid 1px;
+    color: #eacaca;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+  }
+}

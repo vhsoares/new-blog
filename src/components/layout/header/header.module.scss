@@ -1,0 +1,39 @@
+.header {
+  border-bottom: solid 1px #1d1e2d;
+  padding: 20px 0;
+
+  .container {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 26px;
+    background: linear-gradient(310deg, #ff8966 0%, #e5446d 80%);
+    opacity: .9;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  nav {
+    margin-left: auto;
+  }
+
+  .link {
+    padding: 10px;
+    margin: auto;
+    color: #5d5e9d;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 300ms;
+    &:hover {
+      color: #8d8ebd;
+    }
+  }
+}

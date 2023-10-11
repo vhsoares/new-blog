@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "about": "About",
+    "blog": "Blog",
+    "projects": "Projects",
+    "hire-me": "Let's Build Together?"
+  },
+  "Index": {
+    "title": "Hi, I'm",
+    "name": "Vitor Henrique",
+    "content": "I'm a full-stack developer with over 8 years of experience with a wide range of business cases. In this over 8 years I had the oportunity to work with several tecnologies, among them we might find: Typescript Javascript, VueJS, React, Sass, Stylus, e o bom e velho Jquery.",
+    "my-project": "My Projects",
+    "my-content": "Cool Stuff"
+  },
+  "Modal": {
+    "title": "Let's build together?",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "whatsapp": "Let's talk through Whatsapp"
+  },
+  "About": {
+    "title": "Hello, I'm",
+    "name": "Vitor Henrique",
+    "me-now": "I am currently working as a technology specialist at Grupo Boticario. But I started as a web developer on a startup in Pelotas called Melhor Envio.",
+    "me-thrive": "Since that time I have always focused on improving my knowledge. I studied SOLID, Clean Code and Automated Tests. I even studied enough to have a very superficial base of UX and UI",
+    "me-interests": "Among my personal interests are Zelda, Mario and different musical styles. As of my future? I'd like to quote Hamilton: \"There's a million things I haven't done. But just you wait\""
+  }
+}

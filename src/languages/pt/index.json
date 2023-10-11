@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "about": "Sobre",
+    "blog": "Blog",
+    "projects": "Projetos",
+    "hire-me": "Vamos construir juntos?"
+  },
+  "Index": {
+    "title": "Olá, eu sou o",
+    "name": "Vitor Henrique",
+    "content": "Sou um desenvolvedor full-stack com mais de 8 anos de carreira com experiência nos mais diversos projetos. Nesses mais de 8 anos tive a oportunidade de trabalhar com as mais diversas tecnologias, entre elas estão: Typescript Javascript, VueJS, React, Sass, Stylus, e o bom e velho Jquery.",
+    "my-project": "Meus Projetos",
+    "my-content": "Coisas Legais"
+  },
+  "Modal": {
+    "title": "Vamos construir algo juntos?",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "send": "Entrar em contato",
+    "whatsapp": "Prefiro falar pelo Whatsapp"
+  },
+  "About": {
+    "title": "Olá, eu sou o",
+    "name": "Vitor Henrique",
+    "me-now": "Atualmente trabalho como especialista em tecnologia no Grupo Boticário. Mas comecei como desenvolvedor web em uma startup de Pelotas que é a Melhor Envio.",
+    "me-thrive": "Desde aquela epoca sempre foquei em melhorar meus conhecimentos, tendo estudado SOLID, Clean Code e Testes Automatizados. Além de ter um conhecimento superficial de UX e UI.",
+    "me-interests": "Entre meus interesses pessoais estão, ZeldaS, MarioS e os mais diversos tipos de músicas e musicais. Tendo dito isso: \"Exitem milhões de coisas que eu ainda não fiz, mas Aguardem!!\""
+  }
+}

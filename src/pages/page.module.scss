@@ -1,0 +1,67 @@
+.specialDivBorder {
+  border-radius: 72% 18% 29% 61% / 42% 14% 56% 58% ;
+  width: 500px;
+  height: 450px;
+  background-color: #aaaafa;
+  opacity: .05;
+  position: fixed;
+}
+
+@for $i from 1 through 20 {
+  .specialDivBorder:nth-child(#{$i}) {
+    left: ($i ) * 55px;
+    top: $i*35px;
+    margin-top: 50px;
+  }
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  vertical-align: middle;
+  justify-content: flex-start;
+  
+}
+
+.half {
+  width: 50%;
+  // background-color: red;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  vertical-align: bottom;
+  height: 500px;
+  margin: auto;
+  padding: 25px;
+
+  h2 {
+    color: #5d5e9d;
+    margin-top: auto;
+    font-weight: 300;
+
+    span {
+      font-weight: 400;
+      font-size: 28px;
+      display: inline-block;
+      background: linear-gradient(310deg, #ff8966 0%, #e5446d 80%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  p {
+    color: #5d5e9d;
+    margin: 20px 0;
+    font-weight: 300;
+
+  }
+
+  .callout {
+    margin: 25px  -15px auto;
+  }
+}
+
+

@@ -1,0 +1,22 @@
+.button {
+  border: solid 1px;
+  cursor: pointer;
+  border-image: linear-gradient(270deg, #ff8966, #e5446d 90%) 1;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 0 15px;
+  color: #5d5e9d;
+  padding: 10px 15px;
+  background: linear-gradient(310deg, #ff8966, #e5446d 90%) border-box;
+  opacity: .9;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 300ms;
+  &:hover {
+    background-color: #5d5e9d;
+    opacity: 1;
+    background: linear-gradient(270deg, #ff8966, #e5446d 90%) border-box;
+    color: #1d1e2d;
+    -webkit-text-fill-color: #1d1e2d;
+  }
+}

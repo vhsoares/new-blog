@@ -1,0 +1,59 @@
+.experienceCard {
+  margin: 35px 0;
+
+  h2 {
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+  h3 {
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+}
+
+.infoContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.companyImage {
+  width: 60px;
+  border-radius: 0 20px 0 20px;
+}
+
+.dates {
+  display: flex;
+  width: 150px;
+  font-size: 12px;
+  font-weight: 300;
+  justify-content: space-between;
+}
+
+.description {
+  padding: 5px 0 10px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 5px;
+
+  .tag {
+    background: #e5446d; //linear-gradient(to left,#ff8966 0%, # 80%);
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 0 55px 0 55px;
+    color: #cacaca;
+    opacity: .9;
+    transition: 300ms;
+
+    &:hover {
+      opacity: 1;
+      cursor: default;
+    }
+  }
+}

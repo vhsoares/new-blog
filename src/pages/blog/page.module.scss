@@ -1,0 +1,74 @@
+.pageTitle {
+  background: linear-gradient(90deg, red, blue);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  text-align: center;
+  padding: 35px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.postCard {
+  width: 31%;
+  box-sizing: border-box;
+  color: #5d5e59;
+  background-color: rgba(40,40,100, .25);
+  border-radius: 5px 5px 5px 5px;
+  position: relative;
+
+  img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #bababa;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+    margin: 0;
+    font-weight: 200;
+  }
+
+  .tag {
+    background-color: #2a2a3a;
+    font-size: 12px;
+    padding: 3px 10px;
+    margin: 5px;
+    border-radius: 40px 0 40px 0;
+    color: #e5446d;
+  }
+
+  .description {
+    font-weight: 400;
+    font-size: 14px;
+    height: 100px;
+  }
+
+  .time {
+    margin-left: auto;
+    position: absolute;
+    font-size: 10px;
+    right: 10px;
+    bottom: 5px;
+  }
+}
+
+

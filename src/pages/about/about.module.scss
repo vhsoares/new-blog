@@ -1,0 +1,40 @@
+
+
+.profile {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  border-bottom: solid 1px #1a1a2a;
+
+  img {
+    margin: 55px 0px;
+    filter: grayscale(0.1);
+    width: 500px;
+    max-width: 100%;
+    max-height: initial;
+    border-radius: 5px;
+  }
+
+  .profileDescription {
+    margin: 55px;
+    color: #8d8ebd;
+
+    h2 {
+      margin: 20px 10px;
+      font-weight: 300;
+
+      span {
+        background: linear-gradient(310deg, #ff8966 0%, #e5446d 80%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color:transparent ;
+      }
+    }
+
+    p {
+      margin: 10px;
+      font-weight: 300;
+      font-size: 16px;
+    }
+  }
+}
