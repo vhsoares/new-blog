@@ -1,0 +1,368 @@
+2023-10-12T02:17:13.555Z [INFO]: # Cloning repository: git@github.com:vhsoares/new-blog.git
+2023-10-12T02:17:15.013Z [INFO]: 
+2023-10-12T02:17:15.014Z [INFO]: Cloning into 'new-blog'...
+2023-10-12T02:17:15.014Z [INFO]: # Checking for Git submodules at: /codebuild/output/src3607562319/src/new-blog/.gitmodules
+2023-10-12T02:17:15.023Z [INFO]: # Retrieving environment cache...
+2023-10-12T02:17:15.063Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+2023-10-12T02:17:15.063Z [INFO]: ---- Setting Up SSM Secrets ----
+2023-10-12T02:17:15.063Z [INFO]: SSM params {"Path":"/amplify/d3fv58xe8f7cho/main/","WithDecryption":true}
+2023-10-12T02:17:15.120Z [WARNING]: !Failed to set up process.env.secrets
+2023-10-12T02:17:16.079Z [INFO]: No live updates for this build run
+2023-10-12T02:17:16.081Z [INFO]: # Retrieving cache...
+2023-10-12T02:17:16.109Z [INFO]: # Retrieved cache
+2023-10-12T02:17:48.546Z [INFO]: ## Starting Backend Build
+                                 ## Checking for associated backend environment...
+                                 ## No backend environment association found, continuing...
+                                 ## Completed Backend Build
+2023-10-12T02:17:48.550Z [INFO]: ## Starting Frontend Build
+                                 # Starting phase: preBuild
+                                 # Executing command: npm ci
+2023-10-12T02:19:08.233Z [WARNING]: npm ERR! code EUSAGE
+2023-10-12T02:19:08.275Z [WARNING]: npm ERR!
+                                    npm
+2023-10-12T02:19:08.275Z [WARNING]: ERR! `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+                                    npm ERR!
+                                    npm ERR! Missing: @next/font@13.5.4 from lock file
+                                    npm ERR! Missing: contentlayer@0.3.4 from lock file
+                                    npm ERR! Missing: date-fns@2.30.0 from lock file
+                                    npm ERR! Missing: next-contentlayer@0.3.4 from lock file
+                                    npm ERR! Missing: next-intl@2.20.2 from lock file
+                                    npm ERR! Missing: react-icons@4.11.0 from lock file
+                                    npm ERR! Missing: sass@1.69.3 from lock file
+                                    npm ERR! Missing: @contentlayer/cli@0.3.4 from lock file
+                                    npm ERR! Missing: @contentlayer/client@0.3.4 from lock file
+                                    npm ERR! Missing: @contentlayer/core@0.3.4 from lock file
+                                    npm ERR! Missing: @contentlayer/source-files@0.3.4 from lock file
+                                    npm ERR! Missing: @contentlayer/source-remote-files@0.3.4 from lock file
+                                    npm ERR! Missing: @contentlayer/utils@0.3.4 from lock file
+                                    npm ERR! Missing: clipanion@3.2.1 from lock file
+                                    npm ERR! Missing: typanion@3.14.0 from lock file
+                                    npm ERR! Missing: camel-case@4.1.2 from lock file
+                                    npm ERR! Missing: comment-json@4.2.3 from lock file
+                                    npm ERR! Missing: esbuild@0.18.20 from lock file
+                                    npm ERR! Missing: gray-matter@4.0.3 from lock file
+                                    npm ERR! Missing: mdx-bundler@9.2.1 from lock file
+                                    npm ERR! Missing: rehype-stringify@9.0.4 from lock file
+                                    npm ERR! Missing: remark-frontmatter@4.0.1 from lock file
+                                    npm ERR! Missing: remark-parse@10.0.2 from lock file
+                                    npm ERR! Missing: remark-rehype@10.1.0 from lock file
+                                    npm ERR! Missing: source-map-support@0.5.21 from lock file
+                                    npm
+2023-10-12T02:19:08.275Z [WARNING]: ERR! Missing: type-fest@3.13.1 from lock file
+                                    npm ERR! Missing: unified@10.1.2 from lock file
+                                    npm ERR! Missing: chokidar@3.5.3 from lock file
+                                    npm ERR! Missing: imagescript@1.2.16 from lock file
+                                    npm ERR! Missing: ts-pattern@4.3.0 from lock file
+                                    npm ERR! Missing: yaml@2.3.2 from lock file
+                                    npm ERR! Missing: zod@3.22.4 from lock file
+                                    npm ERR! Missing: @effect-ts/core@0.60.5 from lock file
+                                    npm ERR! Missing: @effect-ts/otel@0.15.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/core@1.17.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/sdk-trace-base@1.17.1 from lock file
+                                    npm ERR! Missing: @effect-ts/otel-exporter-trace-otlp-grpc@0.15.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/exporter-trace-otlp-grpc@0.39.1 from lock file
+                                    npm ERR! Missing: @effect-ts/otel-sdk-trace-node@0.15.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/sdk-trace-node@1.17.1 from lock file
+                                    npm ERR! Missing: @js-temporal/polyfill@0.4.4 from lock file
+                                    npm ERR! Missing: @opentelemetry/resources@1.17.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/semantic-conventions@1.17.1 from lock file
+                                    npm ERR! Missing: hash-wasm@4.9.0 from lock file
+                                    npm ERR!
+2023-10-12T02:19:08.275Z [WARNING]: Missing: inflection@2.0.1 from lock file
+                                    npm ERR! Missing: memfs@3.5.3 from lock file
+                                    npm ERR! Missing: oo-ascii-tree@1.90.0 from lock file
+                                    npm ERR! Missing: type-fest@3.13.1 from lock file
+                                    npm ERR! Missing: @effect-ts/system@0.57.5 from lock file
+                                    npm ERR! Missing: jsbi@4.3.0 from lock file
+                                    npm ERR! Missing: @grpc/grpc-js@1.9.5 from lock file
+                                    npm ERR! Missing: @opentelemetry/core@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/api@1.4.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/otlp-grpc-exporter-base@0.39.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/otlp-transformer@0.39.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/resources@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/sdk-trace-base@1.13.0 from lock file
+                                    npm ERR! Missing: @grpc/proto-loader@0.7.10 from lock file
+                                    npm ERR! Missing: lodash.camelcase@4.3.0 from lock file
+                                    npm ERR! Missing: long@5.2.3 from lock file
+                                    npm
+2023-10-12T02:19:08.276Z [WARNING]: ERR! Missing: protobufjs@7.2.5 from lock file
+                                    npm ERR! Missing: yargs@17.7.2 from lock file
+                                    npm ERR! Missing: @opentelemetry/core@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/otlp-exporter-base@0.39.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/core@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/api-logs@0.39.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/core@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/resources@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/sdk-logs@0.39.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/sdk-metrics@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/sdk-trace-base@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/core@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/resources@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/core@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/resources@1.13.0 from lock file
+                                    npm
+2023-10-12T02:19:08.276Z [WARNING]: ERR! Missing: @opentelemetry/context-async-hooks@1.17.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/propagator-b3@1.17.1 from lock file
+                                    npm ERR! Missing: @opentelemetry/propagator-jaeger@1.17.1 from lock file
+                                    npm ERR! Missing: pascal-case@3.1.2 from lock file
+                                    npm ERR! Missing: anymatch@3.1.3 from lock file
+                                    npm ERR! Missing: fsevents@2.3.3 from lock file
+                                    npm ERR! Missing: glob-parent@5.1.2 from lock file
+                                    npm ERR! Missing: is-binary-path@2.1.0 from lock file
+                                    npm ERR! Missing: normalize-path@3.0.0 from lock file
+                                    npm ERR! Missing: readdirp@3.6.0 from lock file
+                                    npm ERR! Missing: array-timsort@1.0.3 from lock file
+                                    npm ERR! Missing: core-util-is@1.0.3 from lock file
+                                    npm ERR! Missing: esprima@4.0.1 from lock file
+                                    npm ERR! Missing: has-own-prop@2.0.0 from lock file
+                                    npm ERR!
+2023-10-12T02:19:08.276Z [WARNING]: Missing: repeat-string@1.6.1 from lock file
+                                    npm ERR! Missing: @esbuild/android-arm@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/android-arm64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/android-x64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/darwin-arm64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/darwin-x64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/freebsd-arm64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/freebsd-x64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/linux-arm@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/linux-arm64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/linux-ia32@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/linux-loong64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/linux-mips64el@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/linux-ppc64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/linux-riscv64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/linux-s390x@0.18.20 from lock file
+                                    npm
+2023-10-12T02:19:08.276Z [WARNING]: ERR! Missing: @esbuild/linux-x64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/netbsd-x64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/openbsd-x64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/sunos-x64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/win32-arm64@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/win32-ia32@0.18.20 from lock file
+                                    npm ERR! Missing: @esbuild/win32-x64@0.18.20 from lock file
+                                    npm ERR! Missing: js-yaml@3.14.1 from lock file
+                                    npm ERR! Missing: kind-of@6.0.3 from lock file
+                                    npm ERR! Missing: section-matter@1.0.0 from lock file
+                                    npm ERR! Missing: strip-bom-string@1.0.0 from lock file
+                                    npm ERR! Missing: binary-extensions@2.2.0 from lock file
+                                    npm ERR! Missing: @esbuild-plugins/node-resolve@0.1.4 from lock file
+                                    npm ERR! Missing: @fal-works/esbuild-plugin-global-externals@2.1.2 from lock file
+                                    npm ERR! Missing: @mdx-js/esbuild@2.3.0 from lock file
+                                    npm
+2023-10-12T02:19:08.276Z [WARNING]: ERR! Missing: remark-mdx-frontmatter@1.1.1 from lock file
+                                    npm ERR! Missing: uuid@8.3.2 from lock file
+                                    npm ERR! Missing: vfile@5.3.7 from lock file
+                                    npm ERR! Missing: @types/resolve@1.20.3 from lock file
+                                    npm ERR! Missing: @mdx-js/mdx@2.3.0 from lock file
+                                    npm ERR! Missing: node-fetch@3.3.2 from lock file
+                                    npm ERR! Missing: @types/estree-jsx@1.0.1 from lock file
+                                    npm ERR! Missing: @types/mdx@2.0.8 from lock file
+                                    npm ERR! Missing: estree-util-build-jsx@2.2.2 from lock file
+                                    npm ERR! Missing: estree-util-is-identifier-name@2.1.0 from lock file
+                                    npm ERR! Missing: estree-util-to-js@1.2.0 from lock file
+                                    npm ERR! Missing: estree-walker@3.0.3 from lock file
+                                    npm ERR! Missing: hast-util-to-estree@2.3.3 from lock file
+                                    npm
+2023-10-12T02:19:08.276Z [WARNING]: ERR! Missing: markdown-extensions@1.1.1 from lock file
+                                    npm ERR! Missing: periscopic@3.1.0 from lock file
+                                    npm ERR! Missing: remark-mdx@2.3.0 from lock file
+                                    npm ERR! Missing: unist-util-position-from-estree@1.1.2 from lock file
+                                    npm ERR! Missing: unist-util-stringify-position@3.0.3 from lock file
+                                    npm ERR! Missing: unist-util-visit@4.1.2 from lock file
+                                    npm ERR! Missing: @types/estree@1.0.2 from lock file
+                                    npm ERR! Missing: astring@1.8.6 from lock file
+                                    npm ERR! Missing: source-map@0.7.4 from lock file
+                                    npm ERR! Missing: @types/hast@2.3.6 from lock file
+                                    npm ERR! Missing: @types/unist@2.0.8 from lock file
+                                    npm ERR! Missing: comma-separated-tokens@2.0.3 from lock file
+                                    npm ERR! Missing: estree-util-attach-comments@2.1.1 from lock file
+2023-10-12T02:19:08.277Z [WARNING]: npm ERR! Missing: hast-util-whitespace@2.0.1 from lock file
+                                    npm ERR! Missing: mdast-util-mdx-expression@1.3.2 from lock file
+                                    npm ERR! Missing: mdast-util-mdxjs-esm@1.3.1 from lock file
+                                    npm ERR! Missing: property-information@6.3.0 from lock file
+                                    npm ERR! Missing: space-separated-tokens@2.0.2 from lock file
+                                    npm ERR! Missing: style-to-object@0.4.2 from lock file
+                                    npm ERR! Missing: unist-util-position@4.0.4 from lock file
+                                    npm ERR! Missing: zwitch@2.0.4 from lock file
+                                    npm ERR! Missing: @types/mdast@3.0.13 from lock file
+                                    npm ERR! Missing: mdast-util-from-markdown@1.3.1 from lock file
+                                    npm ERR! Missing: mdast-util-to-markdown@1.5.0 from lock file
+                                    npm ERR! Missing: decode-named-character-reference@1.0.2 from lock file
+                                    npm ERR! Missing: mdast-util-to-string@3.2.0 from lock file
+                                    npm ERR! Missing: micromark@3.2.0 from lock file
+2023-10-12T02:19:08.277Z [WARNING]: npm ERR! Missing: micromark-util-decode-numeric-character-reference@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-decode-string@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-normalize-identifier@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-symbol@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-types@1.1.0 from lock file
+                                    npm ERR! Missing: uvu@0.5.6 from lock file
+                                    npm ERR! Missing: character-entities@2.0.2 from lock file
+                                    npm ERR! Missing: longest-streak@3.1.0 from lock file
+                                    npm ERR! Missing: mdast-util-phrasing@3.0.1 from lock file
+                                    npm ERR! Missing: unist-util-is@5.2.1 from lock file
+                                    npm ERR! Missing: fs-monkey@1.0.5 from lock file
+                                    npm ERR! Missing: @types/debug@4.1.9 from lock file
+                                    npm ERR! Missing: micromark-core-commonmark@1.1.0 from lock file
+2023-10-12T02:19:08.277Z [WARNING]: npm ERR! Missing: micromark-factory-space@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-character@1.2.0 from lock file
+                                    npm ERR! Missing: micromark-util-chunked@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-combine-extensions@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-encode@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-resolve-all@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-sanitize-uri@1.2.0 from lock file
+                                    npm ERR! Missing: micromark-util-subtokenize@1.1.0 from lock file
+                                    npm ERR! Missing: @types/ms@0.7.32 from lock file
+                                    npm ERR! Missing: micromark-factory-destination@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-factory-label@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-factory-title@1.1.0 from lock file
+                                    npm ERR!
+2023-10-12T02:19:08.277Z [WARNING]: Missing: micromark-factory-whitespace@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-classify-character@1.1.0 from lock file
+                                    npm ERR! Missing: micromark-util-html-tag-name@1.2.0 from lock file
+                                    npm ERR! Missing: @formatjs/intl-localematcher@0.2.32 from lock file
+                                    npm ERR! Missing: negotiator@0.6.3 from lock file
+                                    npm ERR! Missing: use-intl@2.20.2 from lock file
+                                    npm ERR! Missing: data-uri-to-buffer@4.0.1 from lock file
+                                    npm ERR! Missing: fetch-blob@3.2.0 from lock file
+                                    npm ERR! Missing: formdata-polyfill@4.0.10 from lock file
+                                    npm ERR! Missing: node-domexception@1.0.0 from lock file
+                                    npm ERR! Missing: web-streams-polyfill@3.2.1 from lock file
+                                    npm ERR! Missing: no-case@3.0.4 from lock file
+                                    npm ERR! Missing: lower-case@2.0.2 from lock file
+                                    npm ERR!
+2023-10-12T02:19:08.277Z [WARNING]: Missing: is-reference@3.0.2 from lock file
+                                    npm ERR! Missing: @protobufjs/aspromise@1.1.2 from lock file
+                                    npm ERR! Missing: @protobufjs/base64@1.1.2 from lock file
+                                    npm ERR! Missing: @protobufjs/codegen@2.0.4 from lock file
+                                    npm ERR! Missing: @protobufjs/eventemitter@1.1.0 from lock file
+                                    npm ERR! Missing: @protobufjs/fetch@1.1.0 from lock file
+                                    npm ERR! Missing: @protobufjs/float@1.0.2 from lock file
+                                    npm ERR! Missing: @protobufjs/inquire@1.1.0 from lock file
+                                    npm ERR! Missing: @protobufjs/path@1.1.2 from lock file
+                                    npm ERR! Missing: @protobufjs/pool@1.1.0 from lock file
+                                    npm ERR! Missing: @protobufjs/utf8@1.1.0 from lock file
+                                    npm ERR! Missing: hast-util-to-html@8.0.4 from lock file
+                                    npm ERR! Missing: ccount@2.0.1 from lock file
+                                    npm
+2023-10-12T02:19:08.277Z [WARNING]: ERR! Missing: hast-util-raw@7.2.3 from lock file
+                                    npm ERR! Missing: html-void-elements@2.0.1 from lock file
+                                    npm ERR! Missing: stringify-entities@4.0.3 from lock file
+                                    npm ERR! Missing: @types/parse5@6.0.3 from lock file
+                                    npm ERR! Missing: hast-util-from-parse5@7.1.2 from lock file
+                                    npm ERR! Missing: hast-util-to-parse5@7.1.0 from lock file
+                                    npm ERR! Missing: parse5@6.0.1 from lock file
+                                    npm ERR! Missing: web-namespaces@2.0.1 from lock file
+                                    npm ERR! Missing: hastscript@7.2.0 from lock file
+                                    npm ERR! Missing: vfile-location@4.1.0 from lock file
+                                    npm ERR! Missing: hast-util-parse-selector@3.1.1 from lock file
+                                    npm ERR! Missing: mdast-util-frontmatter@1.0.1 from lock file
+                                    npm
+2023-10-12T02:19:08.278Z [WARNING]: ERR! Missing: micromark-extension-frontmatter@1.1.1 from lock file
+                                    npm ERR! Missing: fault@2.0.1 from lock file
+                                    npm ERR! Missing: format@0.2.2 from lock file
+                                    npm ERR! Missing: mdast-util-mdx@2.0.1 from lock file
+                                    npm ERR! Missing: micromark-extension-mdxjs@1.0.1 from lock file
+                                    npm ERR! Missing: mdast-util-mdx-jsx@2.1.4 from lock file
+                                    npm ERR! Missing: parse-entities@4.0.1 from lock file
+                                    npm ERR! Missing: unist-util-remove-position@4.0.2 from lock file
+                                    npm ERR! Missing: vfile-message@3.1.4 from lock file
+                                    npm ERR! Missing: micromark-extension-mdx-expression@1.0.8 from lock file
+                                    npm ERR! Missing: micromark-extension-mdx-jsx@1.0.5 from lock file
+                                    npm ERR! Missing: micromark-extension-mdx-md@1.0.1 from lock file
+                                    npm
+2023-10-12T02:19:08.278Z [WARNING]: ERR! Missing: micromark-extension-mdxjs-esm@1.0.5 from lock file
+                                    npm ERR! Missing: micromark-factory-mdx-expression@1.0.9 from lock file
+                                    npm ERR! Missing: micromark-util-events-to-acorn@1.2.3 from lock file
+                                    npm ERR! Missing: @types/acorn@4.0.6 from lock file
+                                    npm ERR! Missing: estree-util-visit@1.2.1 from lock file
+                                    npm ERR! Missing: character-entities-legacy@3.0.0 from lock file
+                                    npm ERR! Missing: character-reference-invalid@2.0.1 from lock file
+                                    npm ERR! Missing: is-alphanumerical@2.0.1 from lock file
+                                    npm ERR! Missing: is-decimal@2.0.1 from lock file
+                                    npm ERR! Missing: is-hexadecimal@2.0.1 from lock file
+                                    npm ERR! Missing: is-alphabetical@2.0.1 from lock file
+                                    npm ERR! Missing: estree-util-is-identifier-name@1.1.0 from lock file
+                                    npm ERR! Missing: estree-util-value-to-estree@1.3.0 from lock file
+2023-10-12T02:19:08.278Z [WARNING]: npm ERR! Missing: toml@3.0.0 from lock file
+                                    npm ERR! Missing: is-plain-obj@3.0.0 from lock file
+                                    npm ERR! Missing: mdast-util-to-hast@12.3.0 from lock file
+                                    npm ERR! Missing: mdast-util-definitions@5.1.2 from lock file
+                                    npm ERR! Missing: trim-lines@3.0.1 from lock file
+                                    npm ERR! Missing: unist-util-generated@2.0.1 from lock file
+                                    npm ERR! Missing: immutable@4.3.4 from lock file
+                                    npm ERR! Missing: extend-shallow@2.0.1 from lock file
+                                    npm ERR! Missing: is-extendable@0.1.1 from lock file
+                                    npm ERR! Missing: buffer-from@1.1.2 from lock file
+                                    npm ERR! Missing: source-map@0.6.1 from lock file
+                                    npm ERR! Missing: character-entities-html4@2.1.0 from lock file
+                                    npm ERR! Missing: inline-style-parser@0.1.1 from lock file
+                                    npm
+2023-10-12T02:19:08.278Z [WARNING]: ERR! Missing: bail@2.0.2 from lock file
+                                    npm ERR! Missing: extend@3.0.2 from lock file
+                                    npm ERR! Missing: is-buffer@2.0.5 from lock file
+                                    npm ERR! Missing: is-plain-obj@4.1.0 from lock file
+                                    npm ERR! Missing: trough@2.1.0 from lock file
+                                    npm ERR! Missing: unist-util-visit-parents@5.1.3 from lock file
+                                    npm ERR! Missing: @formatjs/ecma402-abstract@1.17.2 from lock file
+                                    npm ERR! Missing: intl-messageformat@9.13.0 from lock file
+                                    npm ERR! Missing: @formatjs/intl-localematcher@0.4.2 from lock file
+                                    npm ERR! Missing: @formatjs/ecma402-abstract@1.11.4 from lock file
+                                    npm ERR! Missing: @formatjs/fast-memoize@1.2.1 from lock file
+                                    npm ERR! Missing: @formatjs/icu-messageformat-parser@2.1.0 from lock file
+                                    npm ERR!
+2023-10-12T02:19:08.278Z [WARNING]: Missing: @formatjs/ecma402-abstract@1.11.4 from lock file
+                                    npm ERR! Missing: @formatjs/icu-skeleton-parser@1.3.6 from lock file
+                                    npm ERR! Missing: @formatjs/ecma402-abstract@1.11.4 from lock file
+                                    npm ERR! Missing: diff@5.1.0 from lock file
+                                    npm ERR! Missing: kleur@4.1.5 from lock file
+                                    npm ERR! Missing: sade@1.8.1 from lock file
+                                    npm ERR! Missing: mri@1.2.0 from lock file
+                                    npm ERR! Missing: cliui@8.0.1 from lock file
+                                    npm ERR! Missing: escalade@3.1.1 from lock file
+                                    npm ERR! Missing: get-caller-file@2.0.5 from lock file
+                                    npm ERR! Missing: require-directory@2.1.1 from lock file
+                                    npm ERR! Missing: string-width@4.2.3 from lock file
+                                    npm ERR! Missing: y18n@5.0.8 from lock file
+                                    npm ERR! Missing: yargs-parser@21.1.1 from lock file
+2023-10-12T02:19:08.278Z [WARNING]: npm ERR! Missing: wrap-ansi@7.0.0 from lock file
+                                    npm ERR! Missing: emoji-regex@8.0.0 from lock file
+                                    npm ERR! Missing: is-fullwidth-code-point@3.0.0 from lock file
+                                    npm ERR! Missing: @formatjs/intl-localematcher@0.2.25 from lock file
+                                    npm ERR! Missing: @formatjs/intl-localematcher@0.2.25 from lock file
+                                    npm ERR! Missing: @opentelemetry/semantic-conventions@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/semantic-conventions@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/semantic-conventions@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/semantic-conventions@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/semantic-conventions@1.13.0 from lock file
+                                    npm ERR! Missing: @opentelemetry/semantic-conventions@1.13.0 from lock file
+                                    npm ERR! Missing: argparse@1.0.10 from lock file
+2023-10-12T02:19:08.279Z [WARNING]: npm ERR! Missing: sprintf-js@1.0.3 from lock file
+                                    npm ERR! Missing: @formatjs/intl-localematcher@0.2.25 from lock file
+                                    npm ERR!
+                                    npm ERR! Clean install a project
+                                    npm ERR!
+                                    npm ERR! Usage:
+                                    npm ERR! npm ci
+                                    npm ERR!
+                                    npm ERR! Options:
+                                    npm ERR! [-S|--save|--no-save|--save-prod|--save-dev|--save-optional|--save-peer|--save-bundle]
+                                    npm ERR! [-E|--save-exact] [-g|--global] [--global-style] [--legacy-bundling]
+                                    npm ERR! [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+                                    npm
+2023-10-12T02:19:08.279Z [WARNING]: ERR! [--strict-peer-deps] [--no-package-lock] [--foreground-scripts]
+                                    npm ERR! [--ignore-scripts] [--no-audit] [--no-bin-links] [--no-fund] [--dry-run]
+                                    npm ERR! [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+                                    npm ERR! [-ws|--workspaces] [--include-workspace-root] [--install-links]
+                                    npm ERR!
+                                    npm ERR! aliases: clean-install, ic, install-clean, isntall-clean
+                                    npm ERR!
+                                    npm ERR! Run "npm help ci" for more info
+2023-10-12T02:19:08.281Z [WARNING]: 
+2023-10-12T02:19:08.281Z [WARNING]: npm ERR! A complete log of this run can be found in:
+                                    npm ERR!     /root/.npm/_logs/2023-10-12T02_17_48_769Z-debug-0.log
+2023-10-12T02:19:08.293Z [ERROR]: !!! Build failed
+2023-10-12T02:19:08.294Z [INFO]: Please check the supported SSR features to find if your build failure is related to an unsupported feature: https://docs.aws.amazon.com/amplify/latest/userguide/ssr-Amplify-support.html#supported-unsupported-features. You may also find this troubleshooting guide useful: https://docs.aws.amazon.com/amplify/latest/userguide/troubleshooting-ssr-deployment.html
+2023-10-12T02:19:08.294Z [ERROR]: !!! Non-Zero Exit Code detected
+2023-10-12T02:19:08.294Z [INFO]: # Starting environment caching...
+2023-10-12T02:19:08.294Z [INFO]: # Environment caching completed
+Terminating logging...

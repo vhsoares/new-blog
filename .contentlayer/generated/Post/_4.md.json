@@ -1,0 +1,26 @@
+{
+  "title": "Criando um blog utilizando content layer",
+  "date": "2023-09-30T00:00:00.000Z",
+  "image": "https://place-hold.it/800x200/",
+  "description": "Conteúdo autoral",
+  "tags": [
+    "js",
+    "react",
+    "content layer"
+  ],
+  "body": {
+    "raw": "\n# Criando um blog utilizando contentlayer\n\nIsso é muito interessante",
+    "html": "<h1>Criando um blog utilizando contentlayer</h1>\n<p>Isso é muito interessante</p>"
+  },
+  "_id": "4.md",
+  "_raw": {
+    "sourceFilePath": "4.md",
+    "sourceFileName": "4.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "4"
+  },
+  "type": "Post",
+  "slug": "4",
+  "url": "/posts/4"
+}

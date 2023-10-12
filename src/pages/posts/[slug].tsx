@@ -1,16 +1,14 @@
 import { format, parseISO } from "date-fns";
-import { allPosts } from "contentlayer/generated";
+import { allPosts, Post } from "contentlayer/generated";
 import styles from "./page.module.scss";
 import Link from "next/link";
 import { Url } from "next/dist/shared/lib/router/router";
 import { PiArrowRightThin } from "react-icons/pi";
 
 export const getStaticProps = async ({ locale, params }: any) => {
-  const post = allPosts.find((post) => {
+  const post = allPosts.find((post:Post) => {
     return post.slug === params.slug;
   });
-
-  console.log({relogamesmo: {locale, params}})
 
   return {
     props: {
@@ -30,7 +28,7 @@ export const getStaticPaths = ((props: any) => {
     };
   });
 
-  console.log({deslog: props})
+  console.log(posts)
 
   return {
     paths: posts,
@@ -38,13 +36,11 @@ export const getStaticPaths = ((props: any) => {
   };
 });
 
-const Post = (props: any) => {
-  console.log(props)
+const Post = ({post}: any) => {
+  
   return (
     <article>
-      {JSON.stringify(props)}
-      oi
-      {/* <div>
+      <div>
         <img src={post.image} className={styles.image} />
         <div className={styles.container}>
           <h1 className={styles.title}>{post.title}</h1>
@@ -64,7 +60,7 @@ const Post = (props: any) => {
           {post.title_next}
           <PiArrowRightThin className={styles.icon} />
         </Link>
-      </div> */}
+      </div>
     </article>
   );
 };

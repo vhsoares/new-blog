@@ -1,0 +1,136 @@
+{
+  "cacheItemsMap": {
+    "en/criando-um-blog-utilizando-contentlayer.md": {
+      "document": {
+        "title": "Criando um blog utilizando content layer",
+        "date": "2023-09-30T00:00:00.000Z",
+        "image": "https://place-hold.it/800x200/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse erat nulla, gravida sed elementum nec, pharetra et neque. Phasellus nisi nulla, maximus ac lacinia non, ullamcorper quis sapien. Proin a velit non lacus fringilla convallis.",
+        "tags": [
+          "js",
+          "react",
+          "content layer"
+        ],
+        "link_next": "http://google.com",
+        "title_next": "Gerenciamento de aplicações",
+        "body": {
+          "raw": "\n# Iniciação\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus ipsum vitae mauris mattis, vel mattis ante maximus. Donec ut porta tellus, eu semper dui. Mauris sit amet metus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nec odio a velit imperdiet tincidunt. Quisque accumsan urna non porta euismod. Nulla facilisi. Nulla commodo vulputate erat, lacinia maximus diam sodales vel. Curabitur elit neque, vestibulum vel neque quis, pulvinar pretium eros. In eget molestie justo. Donec et urna est.\n\n### Preenchimento\n\nMorbi placerat commodo porttitor. Integer id imperdiet sapien. Praesent ultrices erat magna, in malesuada elit dignissim at. Ut pharetra lorem lectus, ac tempor sapien imperdiet in. Sed sit amet velit mauris. Curabitur blandit commodo ipsum, eu efficitur augue hendrerit condimentum. Nam at sollicitudin nisl.\n\n### Detalhes e correções\n\nUt eleifend, mauris sed lobortis tristique, metus augue pretium lorem, vel accumsan eros sapien sed lorem. Mauris blandit enim vitae erat tempor, sit amet porta enim convallis. Phasellus scelerisque sodales enim sit amet fermentum. Nunc eu velit commodo, dignissim quam quis, euismod leo. Donec luctus condimentum justo, vitae condimentum libero viverra eu. Fusce tortor dolor, lacinia non lectus ultrices, viverra facilisis nisi. Ut nec mattis arcu, in luctus neque. Donec tempus pulvinar volutpat. Vivamus volutpat mauris elit, ut ultrices diam vestibulum sit amet. Aenean blandit commodo tellus, eu suscipit metus aliquam vitae.\n\n### Conclusão\n\nVivamus pellentesque eu nibh sit amet imperdiet. Suspendisse lacinia justo ac magna laoreet, lobortis vehicula magna volutpat. Integer vel purus purus. Nam nisl erat, ultrices vitae odio ac, pulvinar tempus sapien. Aliquam at molestie lacus. Vestibulum eu mattis purus. Pellentesque dignissim metus at ex scelerisque lobortis. Curabitur sit amet libero viverra, fringilla felis vel, elementum risus. Donec ultrices mauris sit amet sem congue, a feugiat nunc tristique. Donec sodales vel tortor non aliquam. Pellentesque id ex vel velit pretium tincidunt at eu lorem. Vivamus eros tortor, convallis eget iaculis sed, dictum ut ipsum. Aenean nec pretium elit. Fusce sagittis dolor a volutpat sodales.",
+          "html": "<h1>Iniciação</h1>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus ipsum vitae mauris mattis, vel mattis ante maximus. Donec ut porta tellus, eu semper dui. Mauris sit amet metus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nec odio a velit imperdiet tincidunt. Quisque accumsan urna non porta euismod. Nulla facilisi. Nulla commodo vulputate erat, lacinia maximus diam sodales vel. Curabitur elit neque, vestibulum vel neque quis, pulvinar pretium eros. In eget molestie justo. Donec et urna est.</p>\n<h3>Preenchimento</h3>\n<p>Morbi placerat commodo porttitor. Integer id imperdiet sapien. Praesent ultrices erat magna, in malesuada elit dignissim at. Ut pharetra lorem lectus, ac tempor sapien imperdiet in. Sed sit amet velit mauris. Curabitur blandit commodo ipsum, eu efficitur augue hendrerit condimentum. Nam at sollicitudin nisl.</p>\n<h3>Detalhes e correções</h3>\n<p>Ut eleifend, mauris sed lobortis tristique, metus augue pretium lorem, vel accumsan eros sapien sed lorem. Mauris blandit enim vitae erat tempor, sit amet porta enim convallis. Phasellus scelerisque sodales enim sit amet fermentum. Nunc eu velit commodo, dignissim quam quis, euismod leo. Donec luctus condimentum justo, vitae condimentum libero viverra eu. Fusce tortor dolor, lacinia non lectus ultrices, viverra facilisis nisi. Ut nec mattis arcu, in luctus neque. Donec tempus pulvinar volutpat. Vivamus volutpat mauris elit, ut ultrices diam vestibulum sit amet. Aenean blandit commodo tellus, eu suscipit metus aliquam vitae.</p>\n<h3>Conclusão</h3>\n<p>Vivamus pellentesque eu nibh sit amet imperdiet. Suspendisse lacinia justo ac magna laoreet, lobortis vehicula magna volutpat. Integer vel purus purus. Nam nisl erat, ultrices vitae odio ac, pulvinar tempus sapien. Aliquam at molestie lacus. Vestibulum eu mattis purus. Pellentesque dignissim metus at ex scelerisque lobortis. Curabitur sit amet libero viverra, fringilla felis vel, elementum risus. Donec ultrices mauris sit amet sem congue, a feugiat nunc tristique. Donec sodales vel tortor non aliquam. Pellentesque id ex vel velit pretium tincidunt at eu lorem. Vivamus eros tortor, convallis eget iaculis sed, dictum ut ipsum. Aenean nec pretium elit. Fusce sagittis dolor a volutpat sodales.</p>"
+        },
+        "_id": "en/criando-um-blog-utilizando-contentlayer.md",
+        "_raw": {
+          "sourceFilePath": "en/criando-um-blog-utilizando-contentlayer.md",
+          "sourceFileName": "criando-um-blog-utilizando-contentlayer.md",
+          "sourceFileDir": "en",
+          "contentType": "markdown",
+          "flattenedPath": "en/criando-um-blog-utilizando-contentlayer"
+        },
+        "type": "Post",
+        "slug": "criando-um-blog-utilizando-contentlayer",
+        "url": "/posts/criando-um-blog-utilizando-contentlayer",
+        "language": "en"
+      },
+      "documentHash": "1697064032569",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "en/testando-novo-modelo.md": {
+      "document": {
+        "title": "Criando um blog utilizando content layer",
+        "date": "2023-09-30T00:00:00.000Z",
+        "image": "https://place-hold.it/800x200/",
+        "description": "Conteúdo autoral",
+        "tags": [
+          "js",
+          "react",
+          "content layer"
+        ],
+        "body": {
+          "raw": "\n# Criando um blog utilizando contentlayer\n\nIsso é muito interessante",
+          "html": "<h1>Criando um blog utilizando contentlayer</h1>\n<p>Isso é muito interessante</p>"
+        },
+        "_id": "en/testando-novo-modelo.md",
+        "_raw": {
+          "sourceFilePath": "en/testando-novo-modelo.md",
+          "sourceFileName": "testando-novo-modelo.md",
+          "sourceFileDir": "en",
+          "contentType": "markdown",
+          "flattenedPath": "en/testando-novo-modelo"
+        },
+        "type": "Post",
+        "slug": "testando-novo-modelo",
+        "url": "/posts/testando-novo-modelo",
+        "language": "en"
+      },
+      "documentHash": "1697064032594",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "pt/criando-um-blog-utilizando-contentlayer.md": {
+      "document": {
+        "title": "Criando um blog utilizando content layer",
+        "date": "2023-09-30T00:00:00.000Z",
+        "image": "https://place-hold.it/800x200/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse erat nulla, gravida sed elementum nec, pharetra et neque. Phasellus nisi nulla, maximus ac lacinia non, ullamcorper quis sapien. Proin a velit non lacus fringilla convallis.",
+        "tags": [
+          "js",
+          "react",
+          "content layer"
+        ],
+        "link_next": "http://google.com",
+        "title_next": "Gerenciamento de aplicações",
+        "body": {
+          "raw": "\n# Iniciação\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus ipsum vitae mauris mattis, vel mattis ante maximus. Donec ut porta tellus, eu semper dui. Mauris sit amet metus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nec odio a velit imperdiet tincidunt. Quisque accumsan urna non porta euismod. Nulla facilisi. Nulla commodo vulputate erat, lacinia maximus diam sodales vel. Curabitur elit neque, vestibulum vel neque quis, pulvinar pretium eros. In eget molestie justo. Donec et urna est.\n\n### Preenchimento\n\nMorbi placerat commodo porttitor. Integer id imperdiet sapien. Praesent ultrices erat magna, in malesuada elit dignissim at. Ut pharetra lorem lectus, ac tempor sapien imperdiet in. Sed sit amet velit mauris. Curabitur blandit commodo ipsum, eu efficitur augue hendrerit condimentum. Nam at sollicitudin nisl.\n\n### Detalhes e correções\n\nUt eleifend, mauris sed lobortis tristique, metus augue pretium lorem, vel accumsan eros sapien sed lorem. Mauris blandit enim vitae erat tempor, sit amet porta enim convallis. Phasellus scelerisque sodales enim sit amet fermentum. Nunc eu velit commodo, dignissim quam quis, euismod leo. Donec luctus condimentum justo, vitae condimentum libero viverra eu. Fusce tortor dolor, lacinia non lectus ultrices, viverra facilisis nisi. Ut nec mattis arcu, in luctus neque. Donec tempus pulvinar volutpat. Vivamus volutpat mauris elit, ut ultrices diam vestibulum sit amet. Aenean blandit commodo tellus, eu suscipit metus aliquam vitae.\n\n### Conclusão\n\nVivamus pellentesque eu nibh sit amet imperdiet. Suspendisse lacinia justo ac magna laoreet, lobortis vehicula magna volutpat. Integer vel purus purus. Nam nisl erat, ultrices vitae odio ac, pulvinar tempus sapien. Aliquam at molestie lacus. Vestibulum eu mattis purus. Pellentesque dignissim metus at ex scelerisque lobortis. Curabitur sit amet libero viverra, fringilla felis vel, elementum risus. Donec ultrices mauris sit amet sem congue, a feugiat nunc tristique. Donec sodales vel tortor non aliquam. Pellentesque id ex vel velit pretium tincidunt at eu lorem. Vivamus eros tortor, convallis eget iaculis sed, dictum ut ipsum. Aenean nec pretium elit. Fusce sagittis dolor a volutpat sodales.",
+          "html": "<h1>Iniciação</h1>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus ipsum vitae mauris mattis, vel mattis ante maximus. Donec ut porta tellus, eu semper dui. Mauris sit amet metus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nec odio a velit imperdiet tincidunt. Quisque accumsan urna non porta euismod. Nulla facilisi. Nulla commodo vulputate erat, lacinia maximus diam sodales vel. Curabitur elit neque, vestibulum vel neque quis, pulvinar pretium eros. In eget molestie justo. Donec et urna est.</p>\n<h3>Preenchimento</h3>\n<p>Morbi placerat commodo porttitor. Integer id imperdiet sapien. Praesent ultrices erat magna, in malesuada elit dignissim at. Ut pharetra lorem lectus, ac tempor sapien imperdiet in. Sed sit amet velit mauris. Curabitur blandit commodo ipsum, eu efficitur augue hendrerit condimentum. Nam at sollicitudin nisl.</p>\n<h3>Detalhes e correções</h3>\n<p>Ut eleifend, mauris sed lobortis tristique, metus augue pretium lorem, vel accumsan eros sapien sed lorem. Mauris blandit enim vitae erat tempor, sit amet porta enim convallis. Phasellus scelerisque sodales enim sit amet fermentum. Nunc eu velit commodo, dignissim quam quis, euismod leo. Donec luctus condimentum justo, vitae condimentum libero viverra eu. Fusce tortor dolor, lacinia non lectus ultrices, viverra facilisis nisi. Ut nec mattis arcu, in luctus neque. Donec tempus pulvinar volutpat. Vivamus volutpat mauris elit, ut ultrices diam vestibulum sit amet. Aenean blandit commodo tellus, eu suscipit metus aliquam vitae.</p>\n<h3>Conclusão</h3>\n<p>Vivamus pellentesque eu nibh sit amet imperdiet. Suspendisse lacinia justo ac magna laoreet, lobortis vehicula magna volutpat. Integer vel purus purus. Nam nisl erat, ultrices vitae odio ac, pulvinar tempus sapien. Aliquam at molestie lacus. Vestibulum eu mattis purus. Pellentesque dignissim metus at ex scelerisque lobortis. Curabitur sit amet libero viverra, fringilla felis vel, elementum risus. Donec ultrices mauris sit amet sem congue, a feugiat nunc tristique. Donec sodales vel tortor non aliquam. Pellentesque id ex vel velit pretium tincidunt at eu lorem. Vivamus eros tortor, convallis eget iaculis sed, dictum ut ipsum. Aenean nec pretium elit. Fusce sagittis dolor a volutpat sodales.</p>"
+        },
+        "_id": "pt/criando-um-blog-utilizando-contentlayer.md",
+        "_raw": {
+          "sourceFilePath": "pt/criando-um-blog-utilizando-contentlayer.md",
+          "sourceFileName": "criando-um-blog-utilizando-contentlayer.md",
+          "sourceFileDir": "pt",
+          "contentType": "markdown",
+          "flattenedPath": "pt/criando-um-blog-utilizando-contentlayer"
+        },
+        "type": "Post",
+        "slug": "criando-um-blog-utilizando-contentlayer",
+        "url": "/posts/criando-um-blog-utilizando-contentlayer",
+        "language": "pt"
+      },
+      "documentHash": "1696637306975",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "pt/testando-novo-modelo.md": {
+      "document": {
+        "title": "Criando um blog utilizando content layer",
+        "date": "2023-09-30T00:00:00.000Z",
+        "image": "https://place-hold.it/800x200/",
+        "description": "Conteúdo autoral",
+        "tags": [
+          "js",
+          "react",
+          "content layer"
+        ],
+        "body": {
+          "raw": "\n# Criando um blog utilizando contentlayer\n\nIsso é muito interessante",
+          "html": "<h1>Criando um blog utilizando contentlayer</h1>\n<p>Isso é muito interessante</p>"
+        },
+        "_id": "pt/testando-novo-modelo.md",
+        "_raw": {
+          "sourceFilePath": "pt/testando-novo-modelo.md",
+          "sourceFileName": "testando-novo-modelo.md",
+          "sourceFileDir": "pt",
+          "contentType": "markdown",
+          "flattenedPath": "pt/testando-novo-modelo"
+        },
+        "type": "Post",
+        "slug": "testando-novo-modelo",
+        "url": "/posts/testando-novo-modelo",
+        "language": "pt"
+      },
+      "documentHash": "1696637306975",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

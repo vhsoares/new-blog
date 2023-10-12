@@ -21,26 +21,31 @@ function PostCard(post: Post) {
 
       <div className={styles.content}>
         <h2 className="">
-          <Link href={post.slug} className={styles.link}>
+          <Link href={post.url} className={styles.link}>
             {post.title}
           </Link>
         </h2>
         <p className={styles.description}>{post.description}</p>
         <div>
-        {post.tags.map((tag) => (
-          <span className={styles.tag} key={tag}>{tag}</span>
-        ))}
-        <time dateTime={post.date} className={styles.time}>
-          {format(parseISO(post.date), "d/MM/yyyy")}
-        </time>
+          {post.tags.map((tag) => (
+            <span className={styles.tag} key={tag}>
+              {tag}
+            </span>
+          ))}
+          <time dateTime={post.date} className={styles.time}>
+            {format(parseISO(post.date), "d/MM/yyyy")}
+          </time>
         </div>
       </div>
     </article>
   );
 }
 
-const Blog = () => {
-  const posts = allPosts.sort((a, b) =>
+const Blog = ({ locale }: { locale: string }) => {
+  const postsInLanguage: Array<Post> = allPosts.filter(
+    (post: Post) => post.language == locale
+  );
+  const posts:Array<Post> = postsInLanguage.sort((a, b) =>
     compareDesc(new Date(a.date), new Date(b.date))
   );
 
@@ -48,7 +53,7 @@ const Blog = () => {
     <div>
       <h1 className={styles.pageTitle}>Artigos sobre Tecnologia</h1>
       <section className={styles.container}>
-        {posts.map((post, idx) => (
+        {posts.map((post) => (
           <PostCard key={post.slug} {...post} />
         ))}
       </section>
