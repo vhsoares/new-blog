@@ -26,5 +26,15 @@
     "me-now": "Atualmente trabalho como especialista em tecnologia no Grupo Boticário. Mas comecei como desenvolvedor web em uma startup de Pelotas que é a Melhor Envio.",
     "me-thrive": "Desde aquela epoca sempre foquei em melhorar meus conhecimentos, tendo estudado SOLID, Clean Code e Testes Automatizados. Além de ter um conhecimento superficial de UX e UI.",
     "me-interests": "Entre meus interesses pessoais estão, ZeldaS, MarioS e os mais diversos tipos de músicas e musicais. Tendo dito isso: \"Exitem milhões de coisas que eu ainda não fiz, mas Aguardem!!\""
+  },
+  "404": {
+    "title": "404",
+    "message": "Ta perdido?",
+    "back": "Vamos voltar!"
+  },
+  "Error": {
+    "title": "Oops!!",
+    "message": "Esse erro foi nosso! Vamo tentar denovo, pode ser?",
+    "back": "Página Anterior"
   }
 }

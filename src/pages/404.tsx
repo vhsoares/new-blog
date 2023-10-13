@@ -1,3 +1,9 @@
+import { useTranslations } from "next-intl";
+
+import styles from "./page.module.scss";
+import Button from "@/components/layout/button/button";
+import { useRouter } from "next/router";
+
 export const getStaticProps = async (context: any) => {
   return {
     props: {
@@ -9,9 +15,20 @@ export const getStaticProps = async (context: any) => {
 };
 
 const Error = () => {
-  return <section>
-    404
-  </section>
-}
+  const t = useTranslations("404");
+  const router = useRouter();
 
-export default Error
+  const goHome = () => {
+    router.push("/");
+  };
+
+  return (
+    <section className={styles.error404}>
+      <h2>{t("title")}</h2>
+      <p> {t("message")}</p>
+      <Button onClick={() => goHome()} title={t("back")} style={{ margin: "40px auto" }} />
+    </section>
+  );
+};
+
+export default Error;

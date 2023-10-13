@@ -26,5 +26,15 @@
     "me-now": "I am currently working as a technology specialist at Grupo Boticario. But I started as a web developer on a startup in Pelotas called Melhor Envio.",
     "me-thrive": "Since that time I have always focused on improving my knowledge. I studied SOLID, Clean Code and Automated Tests. I even studied enough to have a very superficial base of UX and UI",
     "me-interests": "Among my personal interests are Zelda, Mario and different musical styles. As of my future? I'd like to quote Hamilton: \"There's a million things I haven't done. But just you wait\""
+  },
+  "404": {
+    "title": "404",
+    "message": "Did you get lost?",
+    "back": "Let's go somewhere safe!"
+  },
+  "Error": {
+    "title": "Oops!!",
+    "message": "Sorry, That's on us. Do you mind trying again?",
+    "back": "Go Back"
   }
 }
