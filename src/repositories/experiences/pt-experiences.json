@@ -1,0 +1,126 @@
+[
+  {
+    "title": "Especialista em Tecnologia",
+    "description": "Como especialista em tecnologia do grupo boticário",
+    "dateStart": "Mar 2023",
+    "dateEnd": "Atualmente",
+    "companyName": "Grupo Boticário",
+    "companyImage": "/boticario.jpeg",
+    "skills": ["AWS", "Apigee", "Kanbanize", "AWS Glue", "Github", "Slack API", ""]
+  },
+  {
+    "title": "Desenvolvedor Front End Sênior",
+    "description": "Responsável pelo de desenvolvimento de dashboards de backoffice e dashboards de configuração para ferramentas de prevenção a fraude, documentação e discovery de dashboards de PLD/FT.",
+    "dateStart": "Abr / 2022",
+    "dateEnd": "Fev / 2023",
+    "companyName": "C6 Bank",
+    "companyImage": "/c6.jpeg",
+    "skills": [
+      "ReactJS",
+      "Microfrontends",
+      "Apigee",
+      "Jest",
+      "NodeJS",
+      "Grafana",
+      "Clean Code"
+    ]
+  },
+  {
+    "title": "Consultor de Desenvolvimento",
+    "description": "Durante o período na thoughtworks foi possível trabalhar em diversos projetos com as mais diversas tecnologias, sempre buscando um impacto extraordinário.Junto com um time extremamente multicultural foi possível trabalhar em projetos desafiadores para um dos maiores players mundiais na área de Retail.",
+    "dateStart": "Out / 2020",
+    "dateEnd": "Abr / 2022",
+    "companyName": "ThoughtWorks",
+    "companyImage": "/tw.jpeg",
+    "skills": [
+      "NodeJS",
+      "Jest",
+      "Material UI",
+      "Microsoft Azure",
+      "Log Monitor",
+      "Amazon Web Services (AWS)",
+      "AWS Lambda",
+      "AWS DynamoDB",
+      "Apache Kafka",
+      "Typescript",
+      "Webpack",
+      "ReactJS",
+      "Localstack",
+      "SAM CLI",
+      "MongoDB",
+      "SQL Server",
+      "Azure Pipelines",
+      "Nock",
+      "Clean Code",
+      "TDD",
+      "SOLID",
+      "CI/CD"
+    ]
+  },
+  {
+    "title": "Desenvolvedor de Software",
+    "description": "Durante o período na Join Tecnologia, fiz parte de um time multidisciplinar focado em desenvolver um produto de qualidade para um grande Player do cenário da educação nacional. Em um curto período de tempo foi possível entregar um produto de qualidade que satisfez todos os requisitos da cliente.",
+    "dateStart": "Mar / 2020",
+    "dateEnd": "Out / 2020",
+    "companyName": "Join Tecnologia",
+    "companyImage": "/join.jpeg",
+    "skills": [
+      "C#",
+      ".NET Core",
+      ".NET Mvc",
+      "VueJS",
+      "Jquery",
+      "Gulp",
+      "Sass",
+      "MSSQL",
+      "Webpack"
+    ]
+  },
+  {
+    "title": "Desenvolvedor Web",
+    "description": "O período na WebGlobal foi um período de grande desenvolvimento, pois tive a oportunidade de trazer inovações de grande porte para a empresa e trabalhar em produtos de alta disponibilidade. Trabalhei como desenvolvedor full stack, mas focado na estilização e criação de landing pages e dashboards de análisde de Big Data.",
+    "dateStart": "Fev / 2018",
+    "dateEnd": "Mar / 2020",
+    "companyName": "Web Global",
+    "companyImage": "/wg.jpeg",
+    "skills": [
+      "SSH",
+      "Git",
+      "Gulp",
+      "CodeIgniter",
+      "Laravel",
+      "Javascript",
+      "Jquery",
+      "CSS",
+      "Sass",
+      "HTML",
+      "VueJS",
+      "Mysql",
+      "Bootstrap",
+      "Docker",
+      "Elastic Search"
+    ]
+  },
+  {
+    "title": "Desenvolvedor",
+    "description": "Primeira experiência profissional como desenvolvedor, tendo sido parte do time de suporte a ferramenta, desenvolvido plugins e integrações com as mais diversas plataformas. Dentre essas plataformas estão, Magento, WordPress, WooCommerce, Loja Integrada e Prestashop",
+    "dateStart": "Dez / 2016",
+    "dateEnd": "Fev / 2018",
+    "companyName": "Melhor Envio",
+    "companyImage": "/me.jpeg",
+    "skills": [
+      "PHP",
+      "Laravel",
+      "VueJS",
+      "Wordpress",
+      "GIT",
+      "Gulp",
+      "Stylus",
+      "CSS",
+      "WooCommerce",
+      "Magento",
+      "PrestaShop",
+      "Javascript"
+    ]
+  }
+]
