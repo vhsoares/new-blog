@@ -1,5 +1,5 @@
 import ExperienceCard from "./experience-card";
-import Experiences from "./experiences";
+import Experiences from "@/repositories/experiences/experiences";
 import styles from "./experiences.module.scss";
 
 const ExperienceList = ({ locale }: { locale: "en" | "pt" }) => {
