@@ -15,7 +15,7 @@
   h1 {
     font-size: 26px;
     background: linear-gradient(310deg, #ff8966 0%, #e5446d 80%);
-    opacity: .9;
+    opacity: 0.9;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -34,6 +34,88 @@
     transition: 300ms;
     &:hover {
       color: #8d8ebd;
+    }
+  }
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    .mobile {
+      display: block;
+      position: relative;
+
+      button {
+        font-size: 32px;
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        color: #5d5e9d;
+      }
+
+      h1 {
+        position: inherit;
+        border-bottom: none;
+        padding: 15px;
+      }
+    }
+  }
+
+  .close {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 95;
+    left: 0;
+    top: 0;
+    background-color: #1d1e2dca;
+    left: -100vw;
+    transition: 300ms;
+    &.active {
+      left: 0;
+    }
+  }
+
+  .header {
+    h1 {
+      padding: 40px;
+      border-bottom: solid 1px #1d1e2d;
+    }
+    .container {
+      flex-direction: column;
+      background-color: #2a244a;
+      height: 100vh;
+      top: 0;
+      position: fixed;
+      z-index: 99;
+      width: 85vw;
+      left: -100vw;
+      transition: 300ms 50ms;
+
+      nav {
+        flex-direction: column;
+        justify-content: center;
+        margin: 15px auto;
+        padding: 25px;
+      }
+
+      .link {
+        display: flex;
+        text-align: center;
+        font-size: 18px;
+        margin: auto;
+      }
+    }
+
+    &.active {
+      .container {
+        left: 0;
+      }
     }
   }
 }

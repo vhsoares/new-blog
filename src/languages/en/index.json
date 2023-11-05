@@ -27,6 +27,11 @@
     "me-thrive": "Since that time I have always focused on improving my knowledge. I studied SOLID, Clean Code and Automated Tests. I even studied enough to have a very superficial base of UX and UI",
     "me-interests": "Among my personal interests are Zelda, Mario and different musical styles. As of my future? I'd like to quote Hamilton: \"There's a million things I haven't done. But just you wait\""
   },
+  "Projects": {
+    "title": "My Projects",
+    "subtitle": "The projects shown here are projects that I had huge participaiton in it's development and publishing as also maintenance and bug correction.",
+    "action": "Conhecer o projeto"
+  },
   "404": {
     "title": "404",
     "message": "Did you get lost?",

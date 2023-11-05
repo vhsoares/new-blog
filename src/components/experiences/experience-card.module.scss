@@ -48,12 +48,25 @@
     font-size: 12px;
     border-radius: 0 55px 0 55px;
     color: #cacaca;
-    opacity: .9;
+    opacity: 0.9;
     transition: 300ms;
 
     &:hover {
       opacity: 1;
       cursor: default;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .experienceCard {
+    .tags {
+      gap: 10px 3px;
+    }
+    .tag {
+      font-size: 10px;
+      padding: 3px 10px;
+      border-radius: 0 35px 0 35px;
     }
   }
 }

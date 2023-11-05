@@ -27,6 +27,11 @@
     "me-thrive": "Desde aquela epoca sempre foquei em melhorar meus conhecimentos, tendo estudado SOLID, Clean Code e Testes Automatizados. Além de ter um conhecimento superficial de UX e UI.",
     "me-interests": "Entre meus interesses pessoais estão, ZeldaS, MarioS e os mais diversos tipos de músicas e musicais. Tendo dito isso: \"Exitem milhões de coisas que eu ainda não fiz, mas Aguardem!!\""
   },
+  "Projects": {
+    "title": "Meus Projetos",
+    "subtitle": "Os projetos mostrados aqui são projetos que eu tive uma grande participação em seu desenvolvimento e publicação, assim como manutenção e correção de erros.",
+    "action": "Conhecer o projeto"
+  },
   "404": {
     "title": "404",
     "message": "Ta perdido?",

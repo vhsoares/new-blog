@@ -27,3 +27,15 @@
   transform: scale(1.4);
   border-bottom-color:  #8d8ebd;
 }
+
+@media screen and (max-width: 400px) {
+  .localeSelector {
+    display: flex;
+    margin: 25px 0;
+    padding-left: 0;
+    padding: 25px 60px 25px;
+    border-top: solid 1px #1d1e2d;
+    border-bottom: solid 1px #1d1e2d;
+    border-left: none;
+  }
+}
