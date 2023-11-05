@@ -25,7 +25,7 @@ const Projects = ({ locale }: any) => {
       </section>
       <section>
         {projects.map((project) => (
-          <ProjectCard {...project} />
+          <ProjectCard key={project.title} {...project} />
         ))}
       </section>
     </div>
