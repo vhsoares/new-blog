@@ -1,6 +1,14 @@
+@import "../../styles/colors.scss";
+
 .container {
   max-width: 830px;
   margin: auto;
-  color: #8d8ebd;
+  color: $tertiary;
   padding: 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    color: $dark-tertiary 
+  }
 }

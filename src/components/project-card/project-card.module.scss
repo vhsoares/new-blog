@@ -1,3 +1,5 @@
+@import "../../styles/colors.scss";
+
 .card {
   display: flex;
   gap: 15px;
@@ -7,9 +9,11 @@
 
   .imagesCarousel {
     width: 300px;
+    position: relative;
 
     img {
       max-width: 100%;
+      height: initial;
     }
   }
 
@@ -17,7 +21,7 @@
     max-width: 700px;
     display: flex;
     flex-direction: column;
-    color: #8d8ebd;
+    color: $tertiary;
   }
 
   .title {
@@ -43,11 +47,11 @@
   }
 
   .tag {
-    background: #e5446d; //linear-gradient(to left,#ff8966 0%, # 80%);
+    background: lighten($callout-color, $amount: 15) ;
     padding: 5px 15px;
     font-size: 12px;
     border-radius: 0 55px 0 55px;
-    color: #cacaca;
+    color: $primary;
     opacity: .9;
     transition: 300ms;
     margin: 3px;
@@ -63,19 +67,35 @@
     bottom: 3px;
     right: 0px;
     border-radius: 5px;
-    color: #e5446d;
+    color: $secondary;
     font-size: 14px;
     padding: 10px 20px 8px;
-    background-color: #1a1a2a ;
+    background: $gradient;
     cursor: pointer;
-    opacity: .8;
     transition: 300ms;
+    // font-weight: 400;
+    font-weight: 500;
     &:hover {
+      background: $gradient-secondary;
       opacity: 1;
     }
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .card {
+
+    .info {
+      color: $dark-tertiary;
+  
+    .tag {
+      background: $callout-color;
+      color: #000;
+      letter-spacing: 1px;
+    }
+  }
+}
+}
 @media screen and (max-width: 450px) {
   .card {
     padding: 0 15px;

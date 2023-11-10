@@ -1,4 +1,13 @@
+@import "../styles/colors.scss";
+
 body {
   margin: 0;
-  background-color: #08090A;
+  background-color: $site-backround-color;
+}
+
+@media (prefers-color-scheme: dark) {
+  
+  body {
+    background-color: red;
+  }
 }

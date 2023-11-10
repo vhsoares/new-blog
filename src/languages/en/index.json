@@ -12,6 +12,10 @@
     "my-project": "My Projects",
     "my-content": "Cool Stuff"
   },
+  "Blog": {
+    "title": "Blog",
+    "disclaimer": "I promise you that in the future we will have some cool stuff here."
+  },
   "Modal": {
     "title": "Let's build together?",
     "name": "Name",
@@ -23,6 +27,7 @@
   "About": {
     "title": "Hello, I'm",
     "name": "Vitor Henrique",
+    "picture-alt": "A picture of Vitor using a white T-shirt and a white cap while jogging",
     "me-now": "I am currently working as a technology specialist at Grupo Boticario. But I started as a web developer on a startup in Pelotas called Melhor Envio.",
     "me-thrive": "Since that time I have always focused on improving my knowledge. I studied SOLID, Clean Code and Automated Tests. I even studied enough to have a very superficial base of UX and UI",
     "me-interests": "Among my personal interests are Zelda, Mario and different musical styles. As of my future? I'd like to quote Hamilton: \"There's a million things I haven't done. But just you wait\""

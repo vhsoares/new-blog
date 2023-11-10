@@ -1,9 +1,11 @@
+@import "../styles/colors.scss";
+
 .specialDivBorder {
   border-radius: 72% 18% 29% 61% / 42% 14% 56% 58% ;
   width: 500px;
   height: 450px;
-  background-color: #aaaafa;
-  opacity: .05;
+  background-color: $index-leaves-color;
+  opacity: $index-leaves-opacity;
   position: fixed;
 }
 
@@ -38,7 +40,7 @@
   padding: 25px;
 
   h2 {
-    color: #5d5e9d;
+    color: $secondary;
     margin-top: auto;
     font-weight: 300;
 
@@ -46,14 +48,14 @@
       font-weight: 400;
       font-size: 28px;
       display: inline-block;
-      background: linear-gradient(310deg, #ff8966 0%, #e5446d 80%);
+      background: $gradient;
       background-clip: text;
       -webkit-text-fill-color: transparent;
     }
   }
 
   p {
-    color: #5d5e9d;
+    color: $secondary;
     margin: 20px 0;
     font-weight: 300;
 

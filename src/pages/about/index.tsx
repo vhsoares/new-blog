@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import ExperienceList from "../../components/experiences/experience-list";
 
 import styles from "./about.module.scss";
+import Image from "next/image";
 
 export const getStaticProps = async (context: any) => {
   return {
@@ -20,7 +21,7 @@ const About = ({ locale }: any) => {
     <>
       <section className={styles.profile}>
         <div className={styles.profilePicture}>
-          <img src="/profile.jpeg" alt="" />
+          <Image src="/profile.jpeg" alt={t("picture-alt")} quality={70} width={260} height={325}/>
         </div>
         <div className={styles.profileDescription}>
           <h2>

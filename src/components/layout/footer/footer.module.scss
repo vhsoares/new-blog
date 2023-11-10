@@ -1,9 +1,11 @@
+@import "../../../styles/colors.scss";
+
 .footer {
   margin-top: 100px;
   position: relative;
 
   .disclaimer {
-    color: #4a5a6a;
+    color: $secondary;
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -26,8 +28,8 @@
 
     .link {
       text-decoration: none;
-      color: #facaca;
-      background: linear-gradient(310deg, #ff8966 0%, #e5446d 60%);
+      color: $white-text-color;
+      background: $gradient;
       margin: 5px;
       border-radius: 50px;
       overflow: hidden;

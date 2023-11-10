@@ -1,6 +1,7 @@
 import { PiLinkLight } from "react-icons/pi";
 import { ProjectType } from "@/repositories/projects/projects";
 import styles from './project-card.module.scss'
+import Image from "next/image";
 
 const ProjectCard = ({
   title,
@@ -14,7 +15,7 @@ const ProjectCard = ({
   return (
     <article className={styles.card}>
       <div className={styles.imagesCarousel}>
-        <img src="http://place-hold.it/350x200" />
+        <Image src={images[0]} alt={`foto do projeto ${title}`} fill/>
       </div>
       <div className={styles.info}>
         <h3 className={styles.title}>{title}</h3>
@@ -25,7 +26,7 @@ const ProjectCard = ({
           <span className={styles.tag}>{date}</span>
         </div>
       </div>
-      <a className={styles.action} target="_blank">
+      <a href={link} className={styles.action} target="_blank">
         Conheça o projeto <PiLinkLight style={{ marginLeft: "10px" }} />
       </a>
     </article>

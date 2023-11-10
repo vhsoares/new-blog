@@ -1,27 +1,29 @@
-[{
-  "title": "Manutenção Site Vetahead",
-  "type": "Escola",
-  "description": "A Vetahead é uma empresa de educação americana que busca levar conhecimento sobre o tratamento e cuidado de animais exóticos para o maior número de médicos veterinários.",
-  "client": "Vetahead",
-  "date": "Em andamento",
-  "images": [""],
-  "link": "string"
-},
-{
-  "title": "Criação Marketplace",
-  "type": "Escola",
-  "description": "A Vetahead é uma empresa de educação americana que busca levar conhecimento sobre o tratamento e cuidado de animais exóticos para o maior número de médicos veterinários.",
-  "client": "Vetahead",
-  "date": "Em andamento",
-  "images": [""],
-  "link": "string"
-},
-{
-  "title": "Manutenção Site Vetahead",
-  "type": "Escola",
-  "description": "A Vetahead é uma empresa de educação americana que busca levar conhecimento sobre o tratamento e cuidado de animais exóticos para o maior número de médicos veterinários.",
-  "client": "Vetahead",
-  "date": "Em andamento",
-  "images": [""],
-  "link": "string"
-}]
+[
+  {
+    "title": "Manutenção Site Vetahead",
+    "type": "Escola",
+    "description": "A Vetahead é uma empresa de educação americana que busca levar conhecimento sobre o tratamento e cuidado de animais exóticos para o maior número de médicos veterinários.",
+    "client": "Vetahead",
+    "date": "Em andamento",
+    "images": ["/vetahead.webp"],
+    "link": "https://www.vetahead.vet/"
+  },
+  {
+    "title": "Sistema Agendador para Karts",
+    "type": "Entretenimento",
+    "description": "O objetivo desse projeto é criar um sistema de gerenciamento para as pistas e karts disponíveis para aluguel nos clientes.",
+    "client": "Kart Sul",
+    "date": "Em andamento",
+    "images": ["/economizei.png"],
+    "link": "https://github.com/vhsoares/scheduler-api"
+  },
+  {
+    "title": "Criação Marketplace Economizei",
+    "type": "Marketplace",
+    "description": "Um sistema avançado com o criação de categorias, gerenciamento de ofertas e análise automatizada de ofertas através de um Web Crawler automatizado.",
+    "client": "Economizei",
+    "date": "Concluído em Março 2023",
+    "images": ["/boticario.jpeg"],
+    "link": "https://economizei.com/promos-relampago"
+  }
+]

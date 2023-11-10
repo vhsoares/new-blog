@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./experience-card.module.scss";
 
 type ExperienceCardProps = {
@@ -23,9 +24,14 @@ const ExperienceCard = ({
     <article className={styles.experienceCard}>
       <div className={styles.infoContainer}>
         <div className={styles.company}>
-          <img
+          <Image
             src={companyImage}
             className={styles.companyImage}
+            alt={`logo do ${companyName}`}
+            quality={90}
+            width={70}
+            height={60}
+
           />
         </div>
         <div>

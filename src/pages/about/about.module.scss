@@ -1,8 +1,9 @@
+@import "../../styles/colors.scss";
 .profile {
   display: flex;
   max-width: 1000px;
   margin: auto;
-  border-bottom: solid 1px #1a1a2a;
+  border-bottom: solid 1px $border-color;
 
   img {
     margin: 55px 0px;
@@ -15,14 +16,14 @@
 
   .profileDescription {
     margin: 55px;
-    color: #8d8ebd;
+    color: $tertiary;
 
     h2 {
       margin: 20px 10px;
       font-weight: 300;
 
       span {
-        background: linear-gradient(310deg, #ff8966 0%, #e5446d 80%);
+        background: $gradient;
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color:transparent ;
@@ -33,6 +34,16 @@
       margin: 10px;
       font-weight: 300;
       font-size: 16px;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .profile {
+    border-bottom: solid 1px $dark-border-color;
+  
+    .profileDescription {
+      color: $dark-tertiary; 
     }
   }
 }

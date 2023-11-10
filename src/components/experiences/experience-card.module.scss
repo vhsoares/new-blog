@@ -1,3 +1,4 @@
+@import "../../styles/colors.scss";
 .experienceCard {
   margin: 35px 0;
 
@@ -43,17 +44,26 @@
   gap: 10px 5px;
 
   .tag {
-    background: #e5446d; //linear-gradient(to left,#ff8966 0%, # 80%);
+    background: lighten($callout-color, $amount: 15);
     padding: 5px 15px;
     font-size: 12px;
     border-radius: 0 55px 0 55px;
-    color: #cacaca;
+    color: $primary;
     opacity: 0.9;
     transition: 300ms;
 
     &:hover {
       opacity: 1;
       cursor: default;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .tags {
+    .tag {
+      background: $callout-color;
+      color: $dark-white-text-color;
     }
   }
 }

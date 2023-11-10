@@ -1,3 +1,5 @@
+@import "../../styles/colors.scss";
+
 .myProjects {
   .mainTitle {
     font-size: 38px;
@@ -5,20 +7,28 @@
     font-weight: 500;
     display: block;
     text-align: center;
-    background: linear-gradient(310deg, #ff8966, #e5446d 90%) border-box;
+    background: $gradient border-box;
     width: fit-content;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .mainDescription {
-    color: red($color: #000000);
     max-width: 1000px;
     text-align: center;
     margin: auto;
     padding: 0 35px;
     padding-bottom: 25px;
-    color: #8d8ebd;
-    border-bottom: solid 1px #1a1a2a;
+    color: $tertiary;
+    border-bottom: solid 1px $border-color;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .myProjects {  
+    .mainDescription {
+      color: $dark-tertiary;
+      border-bottom: solid 1px $dark-border-color;
+    }
   }
 }

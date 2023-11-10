@@ -1,3 +1,5 @@
+@import "../../styles/colors.scss";
+
 .image {
   width: 100%;
 }
@@ -10,7 +12,7 @@
 
 .title {
   margin: auto;
-  background: linear-gradient(310deg, #ff8966 0%, #e5446d 80%);
+  background: $gradient;
   opacity: .9;
   font-size: 32px;
   margin: 15px;

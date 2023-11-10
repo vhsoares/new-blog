@@ -1,6 +1,9 @@
+@import "../../../styles/colors.scss";
+
 .header {
-  border-bottom: solid 1px #1d1e2d;
+  border-bottom: solid 1px $border-header-color;
   padding: 20px 0;
+  background-color: $menu-background-color;
 
   .container {
     max-width: 1300px;
@@ -14,7 +17,7 @@
 
   h1 {
     font-size: 26px;
-    background: linear-gradient(310deg, #ff8966 0%, #e5446d 80%);
+    background: $gradient;
     opacity: 0.9;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -27,19 +30,33 @@
   .link {
     padding: 10px;
     margin: auto;
-    color: #5d5e9d;
+    color: $header-colors;
     text-decoration: none;
     font-weight: 400;
     font-size: 15px;
     transition: 300ms;
     &:hover {
-      color: #8d8ebd;
+      color: $header-colors-hover;
     }
   }
 }
 
 .mobile {
   display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    border-bottom: solid 1px $dark-border-color;
+    background-color: $dark-menu-background-color;
+  
+    .link {
+      color: $dark-secondary;
+      &:hover {
+        color: $header-colors-hover;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -55,7 +72,7 @@
         position: absolute;
         top: 15px;
         right: 20px;
-        color: #5d5e9d;
+        color: $secondary;
       }
 
       h1 {
@@ -73,7 +90,7 @@
     z-index: 95;
     left: 0;
     top: 0;
-    background-color: #1d1e2dca;
+    background-color: $mask-color;
     left: -100vw;
     transition: 300ms;
     &.active {
@@ -84,11 +101,11 @@
   .header {
     h1 {
       padding: 40px;
-      border-bottom: solid 1px #1d1e2d;
+      border-bottom: solid 1px $border-color;
     }
     .container {
       flex-direction: column;
-      background-color: #2a244a;
+      background-color: $menu-background-color;
       height: 100vh;
       top: 0;
       position: fixed;
