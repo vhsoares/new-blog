@@ -12,6 +12,10 @@
     "my-project": "Meus Projetos",
     "my-content": "Coisas Legais"
   },
+  "Blog": {
+    "title": "Blog",
+    "disclaimer": "Prometo que mais pra frente vai ter um monte de coisas legais aqui."
+  },
   "Modal": {
     "title": "Vamos construir algo juntos?",
     "name": "Nome",
