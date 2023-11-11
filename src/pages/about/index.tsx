@@ -21,7 +21,14 @@ const About = ({ locale }: any) => {
     <>
       <section className={styles.profile}>
         <div className={styles.profilePicture}>
-          <Image src="/profile.jpeg" alt={t("picture-alt")} quality={70} width={260} height={325}/>
+          <Image
+            src="/profile.jpeg"
+            alt={t("picture-alt")}
+            quality={70}
+            width={260}
+            height={325}
+            priority
+          />
         </div>
         <div className={styles.profileDescription}>
           <h2>
