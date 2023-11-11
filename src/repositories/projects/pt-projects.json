@@ -14,7 +14,7 @@
     "description": "O objetivo desse projeto é criar um sistema de gerenciamento para as pistas e karts disponíveis para aluguel nos clientes.",
     "client": "Kart Sul",
     "date": "Em andamento",
-    "images": ["/economizei.png"],
+    "images": [""],
     "link": "https://github.com/vhsoares/scheduler-api"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Um sistema avançado com o criação de categorias, gerenciamento de ofertas e análise automatizada de ofertas através de um Web Crawler automatizado.",
     "client": "Economizei",
     "date": "Concluído em Março 2023",
-    "images": ["/boticario.jpeg"],
+    "images": ["/economizei.png"],
     "link": "https://economizei.com/promos-relampago"
   }
 ]

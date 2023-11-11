@@ -1,16 +1,16 @@
 [
   {
     "title": "Tecnology Specialist",
-    "description": "Como especialista em tecnologia do grupo boticário",
+    "description": "As a Technology Specialist at Grupo Boticario, I had the oportunity to help the development of integrations between vendors and internal technologies. I helped through the validation and homologation process of a few market tools related to Money Laundering Prevention. ",
     "dateStart": "Mar 2023",
     "dateEnd": "Currently",
     "companyName": "Grupo Boticário",
     "companyImage": "/boticario.jpeg",
-    "skills": ["AWS", "Apigee", "Kanbanize", "AWS Glue", "Github", "Slack API", ""]
+    "skills": ["AWS", "Apigee", "Kanbanize", "AWS Glue", "Github", "Slack API", "Google Cloud Platform (GCP)", "BigQuery", "Github Actions"]
   },
   {
     "title": "Senior Front End Developer",
-    "description": "Responsible for the development of backoffice dashboards and fraud prevention interactive dashboards. Worked in documenting and preparing documentation for dashboards of Laundering Prevention.",
+    "description": "Responsible for the development of backoffice dashboards and fraud prevention interactive dashboards. Worked in documenting and preparing documentation for dashboards of Money Laundering Prevention.",
     "dateStart": "Apr / 2022",
     "dateEnd": "Feb / 2023",
     "companyName": "C6 Bank",
@@ -22,7 +22,9 @@
       "Jest",
       "NodeJS",
       "Grafana",
-      "Clean Code"
+      "Clean Code",
+      "Next JS",
+      "GitLab"
     ]
   },
   {

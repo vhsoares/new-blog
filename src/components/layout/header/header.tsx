@@ -37,12 +37,17 @@ const Header = ({ openContactModal }: HeaderType) => {
       }
     >
       <div className={styles.mobile}>
-      <h1>VhSoares</h1>
+        <Link
+          href="/"
+          style={{ textDecoration: "none" }}
+          onClick={() => setOpenHeader(false)}
+        >
+          <h1>VhSoares</h1>
+        </Link>
 
-      <button onClick={() => setOpenHeader(true)}>
-
-        <AiOutlineMenu />
-      </button>
+        <button onClick={() => setOpenHeader(true)}>
+          <AiOutlineMenu />
+        </button>
       </div>
 
       <div className={styles.container}>

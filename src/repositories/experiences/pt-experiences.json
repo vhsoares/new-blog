@@ -1,12 +1,12 @@
 [
   {
     "title": "Especialista em Tecnologia",
-    "description": "Como especialista em tecnologia do grupo boticário",
+    "description": "Como especialista em tecnologia do Grupo Boticário foi responsável pelo auxilio em integrações entre os vendors e as tecnologias internas. Auxiliou a homologação de plataformas de mercado e comunicou com os mais diversos vendors. ",
     "dateStart": "Mar 2023",
     "dateEnd": "Atualmente",
     "companyName": "Grupo Boticário",
     "companyImage": "/boticario.jpeg",
-    "skills": ["AWS", "Apigee", "Kanbanize", "AWS Glue", "Github", "Slack API", ""]
+    "skills": ["AWS", "Apigee", "Kanbanize", "AWS Glue", "Github", "Slack API", "Google Cloud Platform (GCP)", "BigQuery", "Github Actions"]
   },
   {
     "title": "Desenvolvedor Front End Sênior",
@@ -22,7 +22,9 @@
       "Jest",
       "NodeJS",
       "Grafana",
-      "Clean Code"
+      "Clean Code",
+      "Next JS",
+      "GitLab"
     ]
   },
   {

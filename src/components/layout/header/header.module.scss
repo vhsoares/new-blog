@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 650px) {
   .header {
     .mobile {
       display: block;
@@ -72,7 +72,7 @@
         position: absolute;
         top: 15px;
         right: 20px;
-        color: $secondary;
+        color: $dark-tertiary;
       }
 
       h1 {

@@ -1,7 +1,7 @@
 @import "../styles/colors.scss";
 
 .specialDivBorder {
-  border-radius: 72% 18% 29% 61% / 42% 14% 56% 58% ;
+  border-radius: 72% 18% 29% 61% / 42% 14% 56% 58%;
   width: 500px;
   height: 450px;
   background-color: $index-leaves-color;
@@ -11,8 +11,8 @@
 
 @for $i from 1 through 20 {
   .specialDivBorder:nth-child(#{$i}) {
-    left: ($i ) * 55px;
-    top: $i*35px;
+    left: ($i) * 55px;
+    top: $i * 35px;
     margin-top: 50px;
   }
 }
@@ -23,7 +23,6 @@
   display: flex;
   vertical-align: middle;
   justify-content: flex-start;
-  
 }
 
 .half {
@@ -58,35 +57,66 @@
     color: $secondary;
     margin: 20px 0;
     font-weight: 300;
-
   }
 
   .callout {
-    margin: 25px  -15px auto;
+    margin: 25px -15px auto;
   }
 }
-
 
 .error404 {
   display: flex;
   flex-direction: column;
 
-  h2 { 
+  h2 {
     font-weight: 100;
     margin: 45px;
     text-align: center;
     font-size: 165px;
     text-shadow: #8d8ec5 3px 5px 10px;
-
   }
 
-  p{ 
+  p {
     margin: auto;
     display: block;
     text-align: center;
     font-size: 42px;
     font-weight: 100;
-    opacity: .4;
+    opacity: 0.4;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .specialDivBorder {
+    display: none;
+  }
+
+  .half {
+    width: 100%;
+
+    &:nth-child(1) {
+      display: none;
+    }
+  }
+
+  .container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .half {
+    h2 {
+      color: $dark-secondary;
+      margin-top: auto;
+      font-weight: 300;
+    }
+
+    p {
+      color: $dark-tertiary;
+      margin: 20px 0;
+      font-weight: 300;
+    }
+  }
+}

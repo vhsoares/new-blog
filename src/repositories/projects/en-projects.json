@@ -4,7 +4,7 @@
   "description": "Vetahead is an american vet school that seeks to bring knowledge about the care and treatment of exotic animals",
   "client": "Vetahead",
   "date": "In Progress",
-  "images": [""],
+  "images": ["/vetahead.webp"],
   "link": "https://www.vetahead.vet/"
 },
 {
@@ -22,6 +22,6 @@
   "description": "This goal of the project was to build an advanced system with categories, offers and users management. With the help of an automatic system it is possible to easily find outdated offers because of a webcrawler that help the user.",
   "client": "Economizei",
   "date": "Concluído em Março 2023",
-  "images": [""],
+  "images": ["/economizei.png"],
   "link": "https://economizei.com/promos-relampago"
 }]

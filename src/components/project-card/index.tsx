@@ -1,6 +1,6 @@
 import { PiLinkLight } from "react-icons/pi";
 import { ProjectType } from "@/repositories/projects/projects";
-import styles from './project-card.module.scss'
+import styles from "./project-card.module.scss";
 import Image from "next/image";
 
 const ProjectCard = ({
@@ -15,7 +15,17 @@ const ProjectCard = ({
   return (
     <article className={styles.card}>
       <div className={styles.imagesCarousel}>
-        <Image src={images[0]} alt={`foto do projeto ${title}`} fill/>
+        <div className={styles.picture}>
+          {images[0] != "" && (
+            <Image
+              src={images[0]}
+              alt={`foto do projeto ${title}`}
+              fill
+              objectFit="contain"
+              objectPosition="center"
+            />
+          )}
+        </div>
       </div>
       <div className={styles.info}>
         <h3 className={styles.title}>{title}</h3>
@@ -33,4 +43,4 @@ const ProjectCard = ({
   );
 };
 
-export default ProjectCard
+export default ProjectCard;
